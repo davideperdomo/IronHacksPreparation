@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+/*Hoja de estilos tomada de el ejercicio 1 presentado*/
+*{
+    margin:0;
+    padding: 0;text-decoration: none;
+}
+/*Boton info del pie de página*/
+.infobut{
+    border-color: red;
+	border-style: solid;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-left: 50%;float: left;
+}
+.footcont p{
+	width: 50%;
+	background: #040404;}
+/*Estilos para imagenes del contenido de la página*/
+.divimg{
+    float: left;
+	margin: 0px 10px 20px 10px;
+}
+
+
+/*/Indica el color de toda la página/*/
+body{
+  	background: #DED6C9;
+	font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+}
+/*/Definicion de estilos comunes para la cabezera y el pie de pagina/*/
+header, footer{
+    background: #040404;
+	color: antiquewhite;
+    width:100%; 
+    margin-top: 10px;
+    margin:0px; 
+	overflow: hidden;
+	clear: both;
+	padding: 20px;
+}
+header {
+  width: 100%;
+  background-size: cover;
+  opacity: 10%;
+}
+.navmen{
+    background: #EF4224;
+}
+.menban{
+    width: 90%;
+    max-width: 1000px;
+}
+/*Estilos imagen logo de la página ubicada em la cabecera*/
+.headimg{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+
+/*/Definicion de las margenes del contenido de la página como parte del RWD/*/
+.main, .menu, .footcont{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+/*/Definición estilos de los artculos que estan en la parte principal/*/
+.main .articles{
+    width: 70%; 
+    float: left;background: #DED6C9;
+}
+.main .articles article{
+    padding: 30px 30px 10px 10px;
+    background: #989788;
+    margin-bottom: 20px;overflow: hidden;
+    border-radius: 5px;
+}
+/*interlineado*/
+p{
+	line-height: 1.5em;	
+}
+/*Estilos de botones*/
+.dropbtn {
+    background-color: #EF4224;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	color:whitesmoke;
+	-decoration: none;
+}
+.dropbtn a{text-decoration: none;
+          color:white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.dropdown:hover .dropbtn {
+    background-color: #DD5239;
+}
+/**/
+/*Modificacion de tamaño para navegadores con menos de 1000px*/
+@media screen and (max-width:1000px) {  
+    .dropbtn {
+        padding: 15px;
+        font-size: 14px;		
+    }
+	canvas{width:80%; height: 100%;}
+}
+/*Modificacion de tamaño para navegadores con menos de 720px*/
+@media screen and (max-width:720px) {
+    .dropbtn {
+        padding: 13px;
+        font-size: 13px;
+    }/**/
+    .main .articles{width: 90%;} 
+	canvas{width: 90%; height: 120%;}
+}
+/*Modificacion de tamaño para navegadores con menos de 420px*/
+@media screen and (max-width: 420px) {
+     .main .articles{
+    	width: 80%;
+	}
+    .dropbtn {
+        padding: 10px;
+        font-size: 10px;
+    }
+	canvas{width: 95%; height: 200%;}
+}
+/*estilos del canvas*/
+canvas{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
