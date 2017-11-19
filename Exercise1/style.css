@@ -1,0 +1,126 @@
+body {
+    color: #444;
+    font-family: 'Lato';
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.jumbotrom{
+    color: white;
+    margin-bottom: 10px;
+    padding: 2%;
+    padding-bottom: 50px;
+    background-color: #13124F;
+}
+
+.lead{
+    font-size: medium;
+}
+
+.btn{
+    margin-bottom: 0.4rem;
+    border-radius: 0px;
+    font-size: small;
+}
+
+.btn-primary{
+    background-color: #F61067;
+    border: none;
+}
+
+.page-header{
+    border-width: 1px;
+    border-bottom-color: #9090A5;
+    border-bottom-style: solid;
+}
+
+.input-group{
+    border-top-color: #9090A5;
+    border-top-style: solid;
+    margin-top: 10px;
+    border-bottom-color: #9090A5;
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+}
+
+.progress{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #2AD392;
+    border-radius: 0px;
+}
+.progress-bar{
+    height:1rem;
+    line-height:1rem;
+    background-color:#F61067;
+    transition:width .6s ease
+}
+
+.container-g {
+    background-color: #13124F;
+    color: white;
+}
+
+.span-rounded{
+    background-color: #352BA5;
+    border-radius: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.main-page{
+    margin-left:2%;
+}
+
+.main-content{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+#messagebutton{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cont1{
+    background-color: #9090A5;
+    color: white;
+}
+.cont3{
+    background-color: #352BA5;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
+.cont4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-color: #9090A5;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn-1{
+    width: 48.5%;
+    margin-right:2%;
+}
+
+.btn-2{
+    width: 48.5%;
+}
+
+
+
+.form1{
+    border-radius: 0px;
+    background-color: #1B1B6C;
+    display:block;
+    padding: .4rem;
+    padding-left: .6rem;
+    border: 0px;
+}
